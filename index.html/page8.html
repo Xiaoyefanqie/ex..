@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="head">
+                <div class="content">
+                    <a href="./login.html" class="Sign">登录</a>
+                    <a href="./registered.html" class="Sign">注册</a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="content">
+                <a href="index.html" class="logo">
+                </a>
+                <div class="search">
+                    <input class="text" type="text">
+                    <button class="btn">搜索</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+        <ul class="clearfix">
+            <li>
+                <a href="./index.html">网站首页</a>
+            </li>
+            <li>
+                <a href="./page1.html">水果蛋糕</a>
+            </li>
+            <li>
+                <a href="./page2.html">巧克力蛋糕</a>
+            </li>
+            <li>
+                <a href="./page3.html">小蛋糕</a>
+            </li>
+
+
+        </ul>
+    </div>
+    <div class="container clearfix">
+        <div id="page">
+            <div id="listdiv">
+                <table cellpadding="0" cellspacing="0" id="gwcTable" width="100%">
+                    <tr>
+                        <td width="109"><input type="checkbox" id="checkAll" /> 全选
+                        </td>
+                        <td width="120">商品</td>
+                        <td width="241">单价</td>
+                        <td width="273">数量</td>
+                        <td width="132">小计</td>
+                        <td width="111">操作</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkCss" /></td>
+                        <td>
+                            <p><img src="images/10.png" width="100" /></p>
+                            <p>水果乐园蛋糕</p>
+                        </td>
+                        <td>199</td>
+                        <td class="count"><input class="reduceCss" id="jia1" value="-" type="button" />
+                            <input type="text" class="inputCountCss" id="inputCountCss1" value="1" size="8" />
+                            <input class="addCss" id="jia2" value="+" type="button" /></td>
+                        <td id="stotal3">199</td>
+                        <td><a href="#" class="a">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkCss" /></td>
+                        <td>
+                            <p><img src="images/11.png" width="100" /></p>
+                            <p>缤纷水果盛宴蛋糕</p>
+                        </td>
+                        <td>199</td>
+                        <td class="count"><input class="reduceCss" id="jia3" value="-" type="button" />
+                            <input type="text" class="inputCountCss" id="inputCountCss2" value="1" size="8" />
+                            <input class="addCss" id="jia4" value="+" type="button" /></td>
+                        <td id="stotal3">199</td>
+                        <td><a href="#" class="a">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkCss" /></td>
+                        <td>
+                            <p><img src="images/12.png" width="100" /></p>
+                            <p>热带水果风情蛋糕</p>
+                        </td>
+                        <td>199</td>
+                        <td class="count"><input class="reduceCss" id="jia5" value="-" type="button" />
+                            <input type="text" class="inputCountCss" id="inputCountCss3" value="1" size="8" />
+                            <input class="addCss" id="jia6" value="+" type="button" /></td>
+                        <td id="stotal3">199</td>
+                        <td><a href="#" class="a">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkCss" /></td>
+                        <td>
+                            <p><img src="images/12.png" width="100" /></p>
+                            <p>夏日水果狂欢蛋糕</p>
+                        </td>
+                        <td>199</td>
+                        <td class="count"><input class="reduceCss" id="jia5" value="-" type="button" />
+                            <input type="text" class="inputCountCss" id="inputCountCss3" value="1" size="8" />
+                            <input class="addCss" id="jia6" value="+" type="button" /></td>
+                        <td id="stotal3">199</td>
+                        <td><a href="#" class="a">删除</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="jiesuan">
+                <div class="t jisuanbtn">
+                    <input type="submit" name="btnOrder" id="btnOrder" value="立即结算" class="btn1" />
+                </div>
+                <div class="t TotalMoney">合计：￥<span id="priceTotal">0.00</span></div>
+                <div class="t">已选商品 <span id="countTotal">0</span> 件</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+<script src="js/car.js"></script>
+
+</html>
